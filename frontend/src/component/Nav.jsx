@@ -28,7 +28,7 @@ function Nav() {
     } catch (error) {
         console.log(error);
     } finally {
-        navigate("/login");
+        window.location.href = "/login";
     }
 }
   return (
